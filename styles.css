@@ -386,6 +386,25 @@ footer {
     color: #e8e0cc;
 }
 
+/* Cemetery Group Headers */
+.section-group-title {
+    font-family: var(--font-decor);
+    font-size: 2.2rem;
+    color: var(--accent-color);
+    margin-top: 80px;
+    margin-bottom: 35px;
+    text-align: center;
+    border-bottom: 2px solid var(--border-color);
+    padding-bottom: 15px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.8);
+}
+
+.section-group-title:first-of-type {
+    margin-top: 10px;
+}
+
 /* Responsive */
 @media (max-width: 768px) {
     header {
@@ -430,5 +449,12 @@ footer {
 
     .rabbi-name {
         font-size: 1.3rem;
+    }
+
+    .section-group-title {
+        font-size: 1.6rem;
+        margin-top: 45px;
+        margin-bottom: 20px;
+        padding-bottom: 10px;
     }
 }
