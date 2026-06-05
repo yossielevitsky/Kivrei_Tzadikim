@@ -408,19 +408,33 @@ footer {
 /* Responsive */
 @media (max-width: 768px) {
     header {
-        padding: 10px 0;
+        padding: 15px 0;
+    }
+
+    .nav-container {
+        flex-direction: column;
+        gap: 12px;
+        text-align: center;
     }
 
     .logo {
-        font-size: 1.4rem;
+        font-size: 1.5rem;
     }
 
     nav a {
-        font-size: 0.9rem;
+        font-size: 1rem;
+    }
+
+    .hero {
+        padding: 80px 20px;
     }
 
     .hero h1 {
-        font-size: 2.5rem;
+        font-size: 2.4rem;
+    }
+
+    .hero p {
+        font-size: 1.1rem;
     }
 
     .profile-header {
@@ -429,7 +443,7 @@ footer {
     }
 
     .profile-info h1 {
-        font-size: 2.5rem;
+        font-size: 2.2rem;
     }
 
     .profile-image-container {
@@ -456,5 +470,38 @@ footer {
         margin-top: 45px;
         margin-bottom: 20px;
         padding-bottom: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .logo {
+        font-size: 1.3rem;
+    }
+
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+
+    .rabbi-grid {
+        grid-template-columns: 1fr;
+        gap: 25px;
+    }
+
+    .card-image {
+        height: 260px;
+    }
+
+    .profile-info h1 {
+        font-size: 1.8rem;
+    }
+
+    .section-group-title {
+        font-size: 1.3rem;
+        margin-top: 35px;
+        margin-bottom: 15px;
     }
 }
